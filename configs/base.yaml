@@ -1,0 +1,25 @@
+project:
+  root: .
+  seed: 42
+
+data:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  year: 2020
+
+features:
+  window: '5min'
+  fail_threshold: 5
+
+model:
+  type: isolation_forest
+  params:
+    n_estimators: 200
+    contamination: 0.01
+
+scaling:
+  method: standard
+
+eval:
+  topk: 200

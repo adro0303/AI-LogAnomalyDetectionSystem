@@ -1,0 +1,21 @@
+# Core
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+scipy==1.13.1
+pyarrow==14.0.2
+polars==1.7.1
+
+# Viz
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Utils
+tqdm==4.66.4
+PyYAML==6.0.2
+rich==13.7.1
+
+# Testing & Linting (dev)
+pytest==8.0.2
+black==24.8.0
+ruff==0.5.7

@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env/
+
+# Data
+/data/interim/
+/data/processed/
+/data/raw/*
+!data/raw/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Reports / artifacts
+reports/
+
+# VSCode
+.vscode/
