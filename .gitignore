@@ -30,3 +30,7 @@ reports/
 
 # VSCode
 .vscode/
+
+# IDE
+.vs/
+.venv-work/
